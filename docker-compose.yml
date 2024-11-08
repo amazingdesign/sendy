@@ -18,7 +18,7 @@ services:
   db_sendy:
     hostname: db_sendy
     container_name: db_sendy
-    image: mysql:5.6
+    image: mysql:8.0
     env_file:
       - sendy.env
     environment:
